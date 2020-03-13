@@ -10,12 +10,16 @@
 
 
 # Description
+
 - Utility to add direction keys to Termux.
 
 # Features
-- [x] **Supports Android platform.**
+
+- [x] Supports Android platform.
 
 # Installation
+
+> ***Open the terminal and type following commands.***
 ```
 $ pkg install git
 $ pkg install python
@@ -24,6 +28,7 @@ $ cd Terkey
 $ chmod +x Terkey.py
 $ python Terkey.py
 ```
+
 # Screenshot
 
 [<img src="https://raw.githubusercontent.com/TheDarkRoot/PNGStore/master/Personal/Screenshots/Terkey%2001.png" width=175>](https://raw.githubusercontent.com/TheDarkRoot/PNGStore/master/Personal/Screenshots/Terkey%2001.png)
