@@ -15,7 +15,7 @@
 
 # Features
 
-- [x] **Supports Android platform.**
+- [x] Supports Android platform.
 
 # Installation
 
