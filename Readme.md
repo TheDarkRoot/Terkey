@@ -12,6 +12,8 @@
 # Description
 
 - Utility to add direction keys to Termux.
+- Developer of this software: **[@TheDarkRoot](https://github.com/TheDarkRoot)**
+- Official social media accounts: [@Telegram](https://t.me/TDarkRoot) &bull; [@Instagram](https://instagram.com/TheDarkRoot) &bull; [@Twitter](https://twitter.com/TDarkRoot) &bull; [@Github](https://github.com/TheDarkRoot)
 
 # Features
 
