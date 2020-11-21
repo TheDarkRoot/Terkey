@@ -27,11 +27,10 @@ The author of this project is not responsible for any possible harm caused by th
 > ***Open the terminal and type following commands.***
 ```
 $ pkg install git
-$ pkg install python
 $ git clone https://github.com/TheDarkRoot/Terkey.git
 $ cd Terkey
-$ chmod +x Terkey.py
-$ python Terkey.py
+$ chmod +x Terkey.sh
+$ bash Terkey.sh
 ```
 
 # Screenshot
