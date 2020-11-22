@@ -16,7 +16,6 @@ done
 printf "   \b\b\b\b\b"
 printf "$WW⟫$GG Completed.\n";
 echo "";
-}
 #Colors
 BB="\033[34;1m" # Blue Light
 YY="\033[33;1m" # Yellow Light
@@ -53,5 +52,5 @@ $GG |$YY [$CC=$YY]$WW Team     $CC:$WW TurkHackTeam (www.turkhackteam.org)$GG  |
 $GG 0{===================================================}0\n"
 #Termux Key Update
 echo -e "$CC [$YY*$CC]$GG Termux key updating...";
-( cd ~/;mkdir .termux;cd .termux;curl https://raw.githubusercontent.com/TheDarkRoot/Terpack/master/termux.properties -o termux.properties;cd ~/;termux-reload-settings; ) &> /dev/null & spin;
+( cd ~/.termux/;curl https://raw.githubusercontent.com/TheDarkRoot/FileStore/master/Software%20Files/Terkey.termux -o termux.properties;cd ~/;termux-reload-settings; ) &> /dev/null & spin;
 echo -e "$CC [$YY*$CC]$GG Update successful.\n"
