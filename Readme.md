@@ -26,11 +26,7 @@ The author of this project is not responsible for any possible harm caused by th
 
 > ***Open the terminal and type following commands.***
 ```
-$ pkg install git
-$ git clone https://github.com/TheDarkRoot/Terkey.git
-$ cd Terkey
-$ chmod +x Terkey.sh
-$ bash Terkey.sh
+$ curl https://raw.githubusercontent.com/TheDarkRoot/Terkey/main/Terkey.sh -o Terkey.sh;chmod +x Terkey.sh;bash Terkey.sh
 ```
 
 # Screenshot
