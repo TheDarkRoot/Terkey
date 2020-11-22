@@ -16,6 +16,7 @@ done
 printf "   \b\b\b\b\b"
 printf "$WW⟫$GG Completed.\n";
 echo "";
+}
 #Colors
 BB="\033[34;1m" # Blue Light
 YY="\033[33;1m" # Yellow Light
