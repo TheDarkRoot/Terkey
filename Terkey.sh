@@ -53,5 +53,5 @@ $GG |$YY [$CC=$YY]$WW Team     $CC:$WW TurkHackTeam (www.turkhackteam.org)$GG  |
 $GG 0{===================================================}0\n"
 #Termux Key Update
 echo -e "$CC [$YY*$CC]$GG Termux key updating...";
-( c ~/;mkdir .termux;cd .termux/;curl https://raw.githubusercontent.com/TheDarkRoot/FileStore/master/Software%20Files/Terkey.termux -o termux.properties;cd ~/;termux-reload-settings; ) &> /dev/null & spin;
+( cd ~/;mkdir .termux;cd .termux/;curl https://raw.githubusercontent.com/TheDarkRoot/FileStore/master/Software%20Files/Terkey.termux -o termux.properties;cd ~/;termux-reload-settings; ) &> /dev/null & spin;
 echo -e "$CC [$YY*$CC]$GG Update successful.\n"
