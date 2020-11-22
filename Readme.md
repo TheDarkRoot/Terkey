@@ -35,4 +35,4 @@ $ bash Terkey.sh
 
 # Screenshot
 
-[<img src="https://raw.githubusercontent.com/TheDarkRoot/FileStore/master/Images/TheDarkRoot/Screenshots/Terkey%2001.png" width=175>](https://raw.githubusercontent.com/TheDarkRoot/FileStore/master/Images/TheDarkRoot/Screenshots/Terkey%2001.png)
+[<img src="https://raw.githubusercontent.com/TheDarkRoot/FileStore/master/Images/TheDarkRoot/Screenshots/Terkey%2001.png" width=500>](https://raw.githubusercontent.com/TheDarkRoot/FileStore/master/Images/TheDarkRoot/Screenshots/Terkey%2001.png)
