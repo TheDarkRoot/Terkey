@@ -1,4 +1,5 @@
 #!/bin/bash
+# -*- coding: utf-8 -*-
 spin () {
 local pid=$!
 local delay=0.10
@@ -32,7 +33,7 @@ W="\033[0;1m"   # White
 R="\033[31;1m"  # Red
 C="\033[36;1m"  # Cyan
 M="\033[35;1m"  # Magenta
-#Terpack Banner
+#Tdr-Tool Banner
 echo -e "\n$CC #######$YY ##################$CC #######$YY ####################
 $CC    #    #####  #####          #     ####   ####  #
 $CC    #    #    # #    #         #    #    # #    # #
@@ -40,7 +41,7 @@ $CC    #    #    # #    #  #####  #    #    # #    # #
 $CC    #    #    # #####          #    #    # #    # #
 $CC    #    #    # #   #          #    #    # #    # #
 $CC    #    #####  #    #         #     ####   ####  ######
-$YY ####################[$GG TheDarkRoot$YY ]####################\n
+$YY ###################[›$GG TheDarkRoot $YY‹]###################\n
 $GG 0{======================$WW INFO $GG=======================}0
 $GG |$YY [$CC=$YY]$WW Name     $CC:$WW Terkey$GG                              |
 $GG |$YY [$CC=$YY]$WW Code     $CC:$WW Shell$GG                                |
@@ -51,7 +52,7 @@ $GG |$YY [$CC=$YY]$WW Github   $CC:$WW https://github.com/TheDarkRoot$GG       |
 $GG |$YY [$CC=$YY]$WW Telegram $CC:$WW @TheDarkRoot (t.me/TheDarkRoot)$GG      |
 $GG |$YY [$CC=$YY]$WW Team     $CC:$WW TurkHackTeam (www.turkhackteam.org)$GG  |
 $GG 0{===================================================}0\n"
-#Termux Key Update
-echo -e "$CC [$YY*$CC]$GG Termux Key Updating...";
+#Terkey Update
+echo -e "$CC [$YY»$CC]$GG Termux Key Updating...";
 ( cd ~/;mkdir .termux;cd .termux/;curl https://raw.githubusercontent.com/TheDarkRoot/FileStore/master/Software%20Files/Terkey.termux -o termux.properties;cd ~/;termux-reload-settings; ) &> /dev/null & spin;
-echo -e "$CC [$YY*$CC]$GG Update Successful.\n"
+echo -e "$CC [$YY»$CC]$GG Update Successful.\n"
